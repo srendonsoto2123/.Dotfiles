@@ -1,0 +1,48 @@
+/*
+Arc-Dark Color Scheme
+*/
+
+@define-color highlight #3d59a1;
+@define-color base1 #1f2335;
+@define-color base2 #1f2335;
+@define-color base3 #292e42;
+
+*{
+    font-family: CaskaydiaCove NF, monospace;
+}
+
+window {
+    border: 2px solid @highlight;
+    border-radius: 2px;
+}
+
+#input {
+    margin-bottom: 15px;
+    padding:3px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+#inner-box {
+    background-color: @base3;
+}
+
+#outer-box {
+    margin: 5px;
+    padding:15px;
+    background-color: @base2;
+}
+
+#text {
+    padding: 5px;
+    color: white;
+}
+
+#entry:nth-child(even) {
+    background-color: @base1;
+}
+
+#entry:selected {
+    background-color: @highlight;
+}
