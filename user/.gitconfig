@@ -3,3 +3,5 @@
 	name = Sebastian Rendon
 [init]
 	defaultBranch = main
+[core]
+	editor = nvim
