@@ -75,6 +75,6 @@ export LS_COLORS='*.7z=38;5;40:*.WARC=38;5;40:*.a=38;5;40:*.arj=38;5;40:*.bz2=38
 # export PORT_AUTOSCALING=34000
 
 # PERSONAL ENVS
-export DOTFILES="/mnt/Principal/Home/Documentos/.Dotfiles"
+export DOTFILES="/mnt/Principal/Home/Proyectos/dotfiles"
 
 # vim:ft=zsh:nowrap
