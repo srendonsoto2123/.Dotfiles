@@ -1,0 +1,133 @@
+clear
+nu --version
+clear
+ls -al
+nvim .rustup/
+z .rustup/settings.toml
+z .rustup/
+cd .rustup/
+ls
+nvim settings.toml
+c
+cd ..
+clear
+cd .config
+ls
+ls | where name > nu
+cd nushell/
+ls
+nvim history.txt
+nvim config.nu
+nvim env.nu
+clear
+cd 
+ls
+zoxide .config/nvim
+zoxide --help
+clear
+zsh 
+clear
+ls
+ls | where name > Ma
+ls | where name <= Ma
+ls | where name >= Ma
+ls | where name >= Ma | sort-by modified
+:q
+zsh
+ls
+ls | where type == dir | sort-by size
+ls | where type == dir | sort-by -size
+ls | where type == dir | sort-by size
+ls | where type == dir | sort-by modified
+lsblk
+lspcio
+lspci
+ip add
+clear
+ls
+date
+clear
+ls
+xsh
+zsh
+nmcli
+nmcli d w
+zsh
+clear
+ls
+ls | where type == dir | sort-by modified
+ls | where type == dir | sort-by #
+ls | where type == dir | sort-by index
+ls | where type == dir | sort-by '#'
+pipes-rs -k curved
+pipes-rs -k curved -p 10
+cd .config
+cd..
+..
+ls
+clear
+nvim .config/dconf/user
+cd .Dotfiles/
+ls
+git init
+ls
+git config --globla user.email 75395711+srendonsoto2123@users.noreply.github.com.
+git config --global user.email '75395711+srendonsoto2123@users.noreply.github.com'
+git config --global l
+git config --global -l
+git config --global --help
+git config --global --unset user.password
+git config --global -l
+git config --global -l 
+clear
+git add .
+ls
+touch README.md
+ls
+git add README.md
+git commit -m "Inicio repo para Dotfiles: add config.sh y install.sh"
+ls
+clear
+rm README.md
+ls
+mv {config,install}.sh ../
+ls
+zsh
+ls
+ls | where type == dir
+ls | sort-by modified > 2
+ls | sort-by modified > "2 minutes ago"
+ls | sort-by modified < "2 minutes ago"
+ls | sort_by modified < "2 minutes ago"
+ls | sort modified < "2 minutes ago"
+ls | sort by modified < "2 minutes ago"
+ls | sort_by modified
+ls | sort-by modified
+ls | where modified < 2 | sort-by modified
+ls | where modified < "2" | sort-by modified
+clear
+[one two three] | to yaml
+clear
+zsh
+ls
+ls -al
+ls -al | sort-by type
+ls -al | sort-by readonly
+ls -al | where readonly=true
+ls -al | where readonly == true
+ls -al | where user == srendonsoto
+ls -al | where user == srendonsoto | sort-by bytes
+ls -al | where user == srendonsoto | sort-by byte
+ls -al | where user == srendonsoto | sort-by size
+ls -al | where user == srendonsoto | sort-by -size
+ls -al | where user == srendonsoto | -sort-by size
+ls -al | where user == srendonsoto | sort-by < size
+ls -al | where user == srendonsoto | sort-by -r size
+ls | where user == srendonsoto | sort-by -r size
+ls -al | where user == srendonsoto | sort-by -r size
+ls 
+cleAR
+clear
+ls
+sudo v /etc/docker/daemon.json
+sudo nvim /etc/docker/daemon.json
