@@ -10,7 +10,7 @@ format = "$all"
 right_format = """$git_branch$git_status$cmd_duration$directory"""
 
 # Disable the blank line at the start of the prompt
-add_newline = false
+add_newline = false 
 
 [line_break]
 disabled = true

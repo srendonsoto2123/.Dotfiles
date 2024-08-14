@@ -5,7 +5,7 @@
   "exclusive": true,
   "passtrough": false,
   "gtk-layer-shell": true,
-  "height": 20,
+  "height": 40,
   "modules-left": [
     "cpu",
     "memory",
@@ -13,22 +13,19 @@
     "custom/weather"
   ],
   "modules-center": [
-    "wlr/workspaces"
+    "hyprland/workspaces"
   ],
   "modules-right": [
     "tray",
     "custom/updates",
     "backlight",
     "pulseaudio",
-    "clock",
-    "battery"
+    "clock"
   ],
   "hyprland/window": {
     "format": "{}"
   },
-  "wlr/workspaces": {
-    "on-scroll-up": "hyprctl dispatch workspace e+1",
-    "on-scroll-down": "hyprctl dispatch workspace e-1",
+  "hyprland/workspaces": {
     "all-outputs": true,
     "on-click": "activate",
     "format": "{icon}",
@@ -131,8 +128,8 @@
     "scroll-step": 5
   },
   "network": {
-    "format-wifi": "直 {essid}",
-    "format-ethernet": " {essid}",
+    "format-wifi": "直 {essid}: {ipaddr}",
+    "format-ethernet": " {essid}: {ipaddr}",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "睊 Disc.",
     "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
