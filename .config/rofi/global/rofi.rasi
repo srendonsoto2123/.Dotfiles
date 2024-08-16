@@ -25,7 +25,7 @@ window {
     transparency: "real";
     background-color: #1917244D;
     text-color: #6e6a86;
-    location: west;
+    location: center;
     anchor: west;
     x-offset: 5px;
     y-offset: -50px;
