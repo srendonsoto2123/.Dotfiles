@@ -220,15 +220,6 @@
 	  (box :class "bright" :orientation "h" :space-evenly "false" :vexpand "false" :hexpand "false"
           (scale :orientation "h" :min 0 :max 100 :value brightness :onchange "brightnessctl set {}%" ))))
 
-
-
-
-
-
-
-
-
-
 (defwindow main
   :monitor 0
   :geometry (geometry :anchor "left center"

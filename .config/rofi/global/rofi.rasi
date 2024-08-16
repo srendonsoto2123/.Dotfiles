@@ -23,7 +23,7 @@ configuration {
 
 window {
     transparency: "real";
-    background-color: #1917244D;
+    background-color: #191724F0;
     text-color: #6e6a86;
     location: center;
     anchor: west;
