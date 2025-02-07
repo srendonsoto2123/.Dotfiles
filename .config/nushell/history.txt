@@ -160,3 +160,6 @@ ls
 ls -al
 ps
 exit
+ls
+clear
+exit
