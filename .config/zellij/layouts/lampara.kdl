@@ -1,0 +1,12 @@
+layout {
+  pane split_direction="vertical" {
+    pane command="btop" borderless=true
+
+    pane {
+      pane command="cava" borderless=true
+      pane command="pipes-rs" borderless=true {
+        args "-p" "4" "-k" "curved"
+      }
+    }
+  }
+}
