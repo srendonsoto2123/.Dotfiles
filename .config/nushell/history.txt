@@ -131,3 +131,32 @@ clear
 ls
 sudo v /etc/docker/daemon.json
 sudo nvim /etc/docker/daemon.json
+clear
+ls
+ls | where type == file
+ls | where type == file | sort-by size
+zsh
+cd ../nushell
+nvim config.nu
+config reset 
+clear
+exit
+clear
+echo $env.config
+clear
+eza
+eza -al
+eza -al --icon
+eza -al --icons
+eza -al --icons --color=auto
+eza -al --icons --color=auto | detect-table
+eza -al --icons --color=auto | detect
+eza -al --icons --color=auto | <\n>detect
+table-date
+eza -al --icons --color=auto | to-table
+eza -al --icons --color=auto | table
+eza -al --icons --color=auto 
+ls
+ls -al
+ps
+exit

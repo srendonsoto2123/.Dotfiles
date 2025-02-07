@@ -42,6 +42,7 @@ tooltip {
 
 #workspaces button:hover {
   background: #11111b;
+  border-color: #fcba03;
   color: #cdd6f4;
   border-radius: 4px;
 }
