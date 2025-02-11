@@ -26,7 +26,7 @@ format = "[$hostname](bold blue) "
 disabled = false
 
 [cmd_duration]
-min_time = 1
+min_time = 1000
 format = "[](fg:#232526 bg:none)[$duration]($style)[](fg:#232526 bg:#232526)[](fg:#bc83e3 bg:#232526)[](fg:#232526 bg:#bc83e3)[](fg:#bc83e3 bg:none) "
 disabled = false
 style = "fg:#edeff0 bg:#232526"
